@@ -24,7 +24,7 @@ public class Point {
     }
 
     public double distanceBetweenTwoPoint(Point point){
-        return distanceBetweenTwoPoint(point.getX(), point.getY());
+        return this.distanceBetweenTwoPoint(point.getX(), point.getY());
     }
 
     public double distanceBetweenTwoPoint(int x, int y){
