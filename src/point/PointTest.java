@@ -10,7 +10,7 @@ public class PointTest {
         System.out.println(point.distanceToOrigin());
         System.out.println(point2.distanceToOrigin());
 
-        System.out.println(point.distanceBetweenTwoPoint(0,0));
+        System.out.println(point.distanceBetweenTwoPoint(0, 0));
         System.out.println(point.distanceBetweenTwoPoint(point3));
 
         System.out.println(point.getX());
