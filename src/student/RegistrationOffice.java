@@ -43,7 +43,6 @@ public class RegistrationOffice {
             default:
                 student = new PhdStudent(285, "İlayda", 1995, new Date(1975, 05, 18), "Engineer");
                 break;
-
         }
 
         return student;
