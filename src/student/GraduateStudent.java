@@ -1,5 +1,7 @@
 package student;
 
+import enums.Sex;
+
 import java.util.Date;
 
 public class GraduateStudent extends AbstractStudent {
@@ -7,8 +9,8 @@ public class GraduateStudent extends AbstractStudent {
     private String advisor;
     private String thesis;
 
-    public GraduateStudent(int no, String name, int year, Date date, String major) {
-        super(no, name, year, date, major);
+    public GraduateStudent(Sex sex, int no, String name, int year, Date date, String major) {
+        super(sex, no, name, year, date, major);
     }
 
     public void setAdvisor(String advisor){

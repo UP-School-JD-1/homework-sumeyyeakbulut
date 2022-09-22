@@ -1,5 +1,7 @@
 package product;
 
+import enums.Sex;
+
 import java.util.Date;
 
 public class ProductTest {

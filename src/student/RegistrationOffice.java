@@ -1,5 +1,7 @@
 package student;
 
+import enums.Sex;
+
 import java.util.Date;
 import java.util.Random;
 
@@ -29,19 +31,19 @@ public class RegistrationOffice {
         int i = r.nextInt(6);
         switch (i) {
             case 1:
-                student = new VocationalStudent(219, "Sümeyye", 1998, new Date(1995, 06, 6), "Mathematics");
+                student = new VocationalStudent(Sex.WOMEN, 219, "Sümeyye", 1998, new Date(1995, 06, 6), "Mathematics");
                 break;
             case 2:
-                student = new GraduateStudent(250, "İslim", 1997, new Date(1970, 11, 9), "Mathematics Engineer");
+                student = new GraduateStudent(Sex.WOMEN, 250, "İslim", 1997, new Date(1970, 11, 9), "Mathematics Engineer");
                 break;
             case 3:
-                student = new UndergraduateStudent(168, "Mustafa", 1975, new Date(1980, 04, 8), "Engineer");
+                student = new UndergraduateStudent(Sex.MEN, 168, "Mustafa", 1975, new Date(1980, 04, 8), "Engineer");
                 break;
             case 4:
-                student = new MasterStudent(158, "Ahmet", 1996, new Date(1980, 11, 15), "Statistic");
+                student = new MasterStudent(Sex.MEN, 158, "Ahmet", 1996, new Date(1980, 11, 15), "Statistic");
                 break;
             default:
-                student = new PhdStudent(285, "İlayda", 1995, new Date(1975, 05, 18), "Engineer");
+                student = new PhdStudent(Sex.WOMEN, 285, "İlayda", 1995, new Date(1975, 05, 18), "Engineer");
                 break;
         }
 

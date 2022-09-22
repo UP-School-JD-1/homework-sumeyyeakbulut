@@ -1,4 +1,4 @@
-package product;
+package enums;
 
 public enum Sex {
     WOMEN,MEN;

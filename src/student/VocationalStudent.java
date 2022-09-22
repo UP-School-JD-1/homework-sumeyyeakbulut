@@ -1,11 +1,13 @@
 package student;
 
+import enums.Sex;
+
 import java.util.Date;
 
 public class VocationalStudent extends AbstractStudent {
 
-    public VocationalStudent(int no, String name, int year, Date date, String major) {
-        super(no, name, year, date, major);
+    public VocationalStudent(Sex sex, int no, String name, int year, Date date, String major) {
+        super(sex, no, name, year, date, major);
     }
 
     @Override

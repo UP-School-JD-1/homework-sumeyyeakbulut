@@ -2,9 +2,9 @@ package product;
 
 public abstract class BaseProduct implements Priceable{
 
-    private String sku;
+    private final String sku;
     private String description;
-    private Type type;
+    private final Type type;
     private double price;
     private double tax;
 
@@ -23,10 +23,6 @@ public abstract class BaseProduct implements Priceable{
 
     public String getDescription() {
         return description;
-    }
-
-    public void setSku(String sku) {
-        this.sku = sku;
     }
 
     public String getSku() {

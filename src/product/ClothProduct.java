@@ -1,5 +1,7 @@
 package product;
 
+import enums.Sex;
+
 public class ClothProduct extends BaseProduct {
 
     private Sex sex;
