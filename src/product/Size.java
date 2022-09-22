@@ -1,6 +1,6 @@
 package product;
 
-public enum Size {
+public enum Size { //TODO : EnumInterface implement et
     X_SMALL,
     SMALL,
     MEDIUM,

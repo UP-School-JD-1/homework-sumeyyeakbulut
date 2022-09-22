@@ -31,6 +31,7 @@ public class Reader {
     }
 
     public void read(Book book){
-        System.out.println(name + " güncel olarak "+ book.getTitle() +" kitabını okumaktadır.");
+        System.out.println(name + " güncel olarak "+ book.getTitle() +" kitabını okumaktadır." +
+                " Kitabın türü " + book.getBookType().getValue().toLowerCase());
     }
 }

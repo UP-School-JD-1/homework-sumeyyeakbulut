@@ -12,6 +12,7 @@ public class ReaderTest {
         book1.setAuthor(author);
         book1.setTitle("Serenad");
         book1.setPage(250);
+        book1.setBookType(BookType.FICTION);
 
         book2.setAuthor(author);
         book2.setTitle("Kardeşimin Hikayesi");

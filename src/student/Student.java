@@ -2,7 +2,7 @@ package student;
 
 public interface Student {
 
-    public void study();
-    public void register();
+    void study();
+    void register();
 
 }
