@@ -9,6 +9,13 @@ public class Book {
     int currentPage;
     boolean isHardCover;
 
+    Book(){}
+
+    Book(String title, int page){
+        this.title = title;
+        this.page = page;
+    }
+
     public void setBookType(BookType bookType){
         this.bookType = bookType;
     }
